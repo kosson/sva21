@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="008">210615s1805####|||||||||||||||||#||####u</controlfield>
+    <datafield tag="050" ind1=" " ind2=" ">
+      <subfield code="a">094.1(498); 811.135.1'36-112</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Şincai, Gheorghe</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Elementa Linguae Daco - Romanae sive Valachicae emendata, facilitata, et in meliorem ordinem redacta per Georgium Sinkay de Eadem, AA. LL. Philosophiae, &amp; SS. Theologiae Doctorem, Scholarum Nationalium Valachicarum in Magno Transylvaniae Principatu primum, atque emeritum Directorem, nunc penes Regiam Universitatis Pestanae Typographiam Typi Correctorem. Budae, Typis Regiae Universitatis Pestanae. 1805.</subfield>
+      <subfield code="c">Georgium Sinkai</subfield>
+      <subfield code="h">[Carte tipărită]</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buda</subfield>
+      <subfield code="b">Typis Regiae Universitatis Pestanae</subfield>
+      <subfield code="c">1805</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">110 p. ; 19 cm</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Legătura: carton recent. Însemnări: p. 58: Papp Teodorovici Observații: pe pagina de titlu r: ștampilă cu textul „B. R. V.”; mic ornament tipografic pe partea superioară a paginii de titlu r; este colligat cu lucrarea: Gheorghe Șincai, Epistola, Buda, 1804.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">carte românească veche</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">lingvistică</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">limba română</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">gramatică</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">gramatică istorică</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">morfologie</subfield>
+    </datafield>
+    <datafield tag="856" ind1=" " ind2=" ">
+      <subfield code="u">http://www.dspace.bjastrasibiu.ro/bitstream/123456789/10673/1/BJA_CS_000101_BRV_0001-0118.pdf</subfield>
+    </datafield>
+    <datafield tag="995" ind1=" " ind2=" ">
+      <subfield code="a">Colecţii Speciale - BRV</subfield>
+      <subfield code="D">0.01</subfield>
+      <subfield code="e">BRV101</subfield>
+      <subfield code="F">Sediul_Central_A</subfield>
+      <subfield code="j">687a BRV</subfield>
+      <subfield code="U">Available</subfield>
+      <subfield code="W">Jun 15, 2021</subfield>
+      <subfield code="y">BRV101</subfield>
+      <subfield code="Z">Împrumut la Sala</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="008">210607s1737####|||||||||||||||||#||####u</controlfield>
+    <datafield tag="050" ind1=" " ind2=" ">
+      <subfield code="a">271.3(094)(498.4); 094.1(498.4)</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Györffi Pal</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Ortus, Progressus, Vicissitudines, Excisio, et Restauratio, olim custodiae, nunc ab anno M. DCC. XXIX. Provinciae Transylvaniae Ord. Min. S. P. N. Francisci Strict Observ. Tituli S. Regis Stephani ex Gravissimis, Fideque dignis Authoritatibus clara, ac succinta methodo compilatus, primum in Urbe Orbis capite revisus, castigatus, approbatus, et excusus Typis Reverendae Camerae Apostolicae. eX Vrbe septICoLLe ReDVX oMIne FaVsto Hac secunda editione sub Gratiosissimus auspiciis [...] domini Joannis Haller ...</subfield>
+      <subfield code="c">[Györffi Pál] ; Editor: Joannis Haller</subfield>
+      <subfield code="h">[Carte tipărită]</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">Ed. a 2-a</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Csíksomlyó [Șumuleu-Ciuc]</subfield>
+      <subfield code="b">Typis Ven. Conventus Csikiensis</subfield>
+      <subfield code="c">[1737]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">[8] p., 48 p. ; 23 cm</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Legătura: lipsesc coperțile; paginile, pătate, au custode în dreapta. Observații: exemplar incomplet, deteriorat; pe pagina de titlu și pe ultima pagină (p. 48) - ștampilă ovală cu textul: „Biblioteca Astra Sibiu”; vinietă finală la p. 10 și p. 31.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">istoria Transilvaniei</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">Transilvanice</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ordine călugăreşti</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">franciscani</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">biserica catolica</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ordine religioase</subfield>
+    </datafield>
+    <datafield tag="856" ind1=" " ind2=" ">
+      <subfield code="u">http://www.dspace.bjastrasibiu.ro/bitstream/123456789/10671/1/BJA_CS_000156_T_0001-0056.pdf</subfield>
+    </datafield>
+    <datafield tag="995" ind1=" " ind2=" ">
+      <subfield code="a">Colecţii Speciale - Transilvanice</subfield>
+      <subfield code="D">0.01</subfield>
+      <subfield code="e">T00156</subfield>
+      <subfield code="F">Sediul_Central_A</subfield>
+      <subfield code="j">448 T1</subfield>
+      <subfield code="U">Available</subfield>
+      <subfield code="W">Jun 7, 2021</subfield>
+      <subfield code="y">T00156</subfield>
+      <subfield code="Z">Împrumut la Sala</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000nam a2200000 a 4500</leader>
+    <controlfield tag="008">210527s1718####|||||||||||||||||#||####u</controlfield>
+    <datafield tag="050" ind1=" " ind2=" ">
+      <subfield code="a">238.1:282; 094.1(430)</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Krieger, Sinesius</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Quaestiones theologicae im – et opportunae de fide ad mentem doctoris subtilis publicae concertationi expositae in nostro Studio Generali. Sub Capitulo intermedio hic Ingolstadij celebrato. Praeside P. F. Sinesio Krieger, Ord. Min. S. Francisci Reform. SS. Theologiae Lectore Ordinario. Defendentibus P. F. Ubertino Heeg, F. Ildephonso Tausch, F. Bernardo Haiak, SS. Theologiae Studiosis. Die 14. Mensis Septembris Anno 1718. Horis antee &amp; pomeridianis.... Ingolstadii, Typis Thomae Grass, Typogr. Acad.</subfield>
+      <subfield code="c">Sinesius Krieger</subfield>
+      <subfield code="h">[Carte tipărită]</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Ingolstadt</subfield>
+      <subfield code="b">Typis Thomae Grass, Typogr. Acad.</subfield>
+      <subfield code="c">1718</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">104 p., 6 p. ; 16 cm</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Legătură: coperți de carton marmorat cu cotor deteriorat; paginile sunt pătate și au custode în dreapta Însemnări: pe pagina de titlu: „Conv. Cibiniensis”. Observații: pe pagina de titlu și pe ultima pagina - sub text: ștampilă ovală cu textul: „Biblioteca Astra Sibiu”.  </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">carte străină veche</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">biserica catolica</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">catehism</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">teologie</subfield>
+    </datafield>
+    <datafield tag="856" ind1=" " ind2=" ">
+      <subfield code="u">http://www.dspace.bjastrasibiu.ro/bitstream/123456789/10664/1/BJA_CS_003244_CSV_0001-0118.pdf</subfield>
+    </datafield>
+    <datafield tag="995" ind1=" " ind2=" ">
+      <subfield code="a">Colecţii Speciale - CS</subfield>
+      <subfield code="D">0.01</subfield>
+      <subfield code="e">CS3244</subfield>
+      <subfield code="F">Sediul_Central_A</subfield>
+      <subfield code="j">2002 SIV</subfield>
+      <subfield code="U">Available</subfield>
+      <subfield code="W">May 27, 2021</subfield>
+      <subfield code="y">CS3244</subfield>
+      <subfield code="Z">Împrumut la Sala</subfield>
+    </datafield>
+  </record>
+</collection>
