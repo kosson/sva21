@@ -1,3 +1,5 @@
+<img src="/home/nicolaie/Documents/SCOALA.DE.VARA.ASTRA/SET.DATE.CATALOG.ASTRA/sva21ETLrepo/logoScVaAstra200DPI.png" style="zoom:10%;" />
+
 # Extract, Transform, Load
 
 Acest repo conține materialele de lucru pentru explorarea unui exercițiu de transformare a datelor dintr-un format MARC într-un format de date ce permite interconectarea.
