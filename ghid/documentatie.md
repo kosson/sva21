@@ -49,6 +49,8 @@ sudo catmandu convert -v MARC --fix bjsmostra.fix --type XML to JSON < MARC_Expo
 
 O posibilă etapă intermediară este explorarea setului de date cu scopul de a realiza potențialul pe care anumte informații le oferă, fie că vorbim de afișare, fie de prelucrare ulterioară.
 
+Pentru a instala *jq* pe propriul computer, pentru Windows, urmați ghidul video [Install jq on windows | json parser](https://www.youtube.com/watch?v=rrjIVepRqPI).
+
 ### Citirea fișierului
 
 Dacă dorești să parcurgi fișierul fără a face vreo transformare, folosești sintaxa punct care indică întregul conținut.
@@ -400,10 +402,61 @@ Rezultatul este prezentat în locul numelui ca set de opțiuni oferit în funcț
 
 ![](Reconciliere_rezultat.png)
 
-
-
-
 Pentru a verifica dacă o anumită opțiune este cea corectă, se va urma linkul acesteia. Dacă este cea dorită, se bifează.
+
+## Transformă în RDF
+
+### Instalarea plugin-ului RDF 
+
+Creează directorul extensions: `nicolaie@nicolaie-G750JX:~/.local/share/openrefine$ mkdir -p extensions/rdf-extension`.
+
+Descarcă pluginul necesar de la https://github.com/stkenny/grefine-rdf-extension: `nicolaie@nicolaie-G750JX:~/.local/share/openrefine/extensions/rdf-extension$ wget https://github.com/stkenny/grefine-rdf-extension/releases/download/v1.3.1/rdf-extension-1.3.1.zip`
+
+Repo-ul unde poate fi găsit este la [https://github.com/stkenny/grefine-rdf-extension](https://github.com/stkenny/grefine-rdf-extension).
+
+### RDF schema alignment
+
+Pentru a obține o înregistrare formatată ca RDF (Resource Description Format), va trebui să folosim pluginul deja instalat.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-28 12-35-56.png)
+
+În meniul *Extensions* ar trebui să fie disponibilă opțiunea RDF. Odată selectată, vom ajunge la un panou de unde putem stabili corespondențele și mai departe alege care termeni de vocabular vom alege.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-26-29.png)
+
+Primul lucru care trebuie făcut este să adăugăm vocabularul(ele) pe care le vom folosi pentru a face maparea. Pentru că strucura datelor noastre este cea a unei înregistrări ce utilizaează drept vocabular Dublin Core, vom adăuga suportul pentru acest format. Pe bara unde scrie *Available prefixes* vom apăsa butonul *Add*. În panoul care se deschide, vom menționa prescurtarea pentru namespace, care în cazul nostru va fi `dct`, iar la URI, de îndată ce pui focusul pe câmp, se va autocompleta cu un link care conduce la vocabularul Dublin Core.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-44-49.png)
+
+Trebuie să alegem un *Base URI*, care trebuie să reflecte rădăcina din care înregistrările vor putea fi obținute după negocierea conținutului cu serverul.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-38-38.png)
+
+În acest sens, vom alege un punct de acces ficțional și vom edita câmpul pentru a-l introduce. Să zicem că avem un API la `http://dspace.bjastrasibiu.ro/api/`.
+
+Acum va trebui să alegem un element de identificare unic pentru fiecare fragment al înregistrării în parte. Avem deja la îndemână un câmp dedicat pe care-l vom alege apăsând pe *(Row index) URI*.
+
+La nevoie putem crea noi unul apăsând butonul *Preview edit*. Un posibil exemplu: `value+"_"+row.index`.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-28 13-00-50.png)
+
+După ce aceste preliminarii au fost parcurse, vom continua prin maparea propriu-zisă.
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-45-34.png)
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-46-22.png)
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-46-46.png)
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-47-22.png)
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-47-36.png)
+
+![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-48-16.png)
+
+La final, putem face salvare ca XML și astfel vom încheia ciclul și exercițiul.
+
+![](Screenshot from 2021-08-28 13-34-21.png)
 
 ## Indexare cu Elasticsearch
 
