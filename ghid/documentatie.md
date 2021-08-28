@@ -418,19 +418,19 @@ Repo-ul unde poate fi găsit este la [https://github.com/stkenny/grefine-rdf-ext
 
 Pentru a obține o înregistrare formatată ca RDF (Resource Description Format), va trebui să folosim pluginul deja instalat.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-28 12-35-56.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2812-35-56.png)
 
 În meniul *Extensions* ar trebui să fie disponibilă opțiunea RDF. Odată selectată, vom ajunge la un panou de unde putem stabili corespondențele și mai departe alege care termeni de vocabular vom alege.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-26-29.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-26-29.png)
 
 Primul lucru care trebuie făcut este să adăugăm vocabularul(ele) pe care le vom folosi pentru a face maparea. Pentru că strucura datelor noastre este cea a unei înregistrări ce utilizaează drept vocabular Dublin Core, vom adăuga suportul pentru acest format. Pe bara unde scrie *Available prefixes* vom apăsa butonul *Add*. În panoul care se deschide, vom menționa prescurtarea pentru namespace, care în cazul nostru va fi `dct`, iar la URI, de îndată ce pui focusul pe câmp, se va autocompleta cu un link care conduce la vocabularul Dublin Core.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-44-49.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-44-49.png)
 
 Trebuie să alegem un *Base URI*, care trebuie să reflecte rădăcina din care înregistrările vor putea fi obținute după negocierea conținutului cu serverul.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-38-38.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-38-38.png)
 
 În acest sens, vom alege un punct de acces ficțional și vom edita câmpul pentru a-l introduce. Să zicem că avem un API la `http://dspace.bjastrasibiu.ro/api/`.
 
@@ -438,25 +438,25 @@ Acum va trebui să alegem un element de identificare unic pentru fiecare fragmen
 
 La nevoie putem crea noi unul apăsând butonul *Preview edit*. Un posibil exemplu: `value+"_"+row.index`.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-28 13-00-50.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2813-00-50.png)
 
 După ce aceste preliminarii au fost parcurse, vom continua prin maparea propriu-zisă.
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-45-34.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-45-34.png)
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-46-22.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-46-22.png)
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-46-46.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-46-46.png)
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-47-22.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-47-22.png)
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-47-36.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-47-36.png)
 
-![](RDFSchemaAlignment/Screenshot from 2021-08-21 21-48-16.png)
+![](RDFSchemaAlignment/Screenshotfrom2021-08-2121-48-16.png)
 
 La final, putem face salvare ca XML și astfel vom încheia ciclul și exercițiul.
 
-![](Screenshot from 2021-08-28 13-34-21.png)
+![](Screenshotfrom2021-08-2813-34-21.png)
 
 ## Indexare cu Elasticsearch
 
