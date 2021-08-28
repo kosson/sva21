@@ -54,7 +54,7 @@ Ceea ce am realizat este transformarea de la formatul XML în JSON. Adică, de l
       <subfield code="a">110 p. ; 19 cm</subfield>
     </datafield>
     <datafield tag="500" ind1=" " ind2=" ">
-      <subfield code="a">Legătura: carton recent. Însemnări: p. 58: Papp Teodorovici Observații: pe pagina de titlu r: ștampilă cu textul „B. R. V.”; mic ornament tipografic pe partea superioară a paginii de titlu r; este colligat cu lucrarea: Gheorghe Șincai, Epistola, Buda, 1804.</subfield>
+      <subfield code="a">Legătura: carton recent. Însemnări: p. 58: Papp Teodorovici Observații: pe pagina de titlu r: ștampilă cu textul „B. R. V.”; mic ornament tipografic pe partea superioară a paginii de titlu r; este colligat cu lucrarea: Gheorghe Șincai, Epistola, Buda, 1804.</subfield>
     </datafield>
     <datafield tag="650" ind1=" " ind2=" ">
       <subfield code="a">carte românească veche</subfield>
