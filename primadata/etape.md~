@@ -1,22 +1,5 @@
 # Microexercițiu
 
-## Ce vom realiza
-
-Scopul acestui exercițiu este cel al trecerii printr-un flux de prelucrare cu scopul de a transforma datele în resurse mai bune, predispuse conectării cu alte seturi de date.
-
-```mermaid
-graph TD;
-        MARC21[XML în JSON :: catmandu] --transformare--> JSON[Structura reflectă tot MARC21 :: catmandu];
-        JSON --transformare--> JQ[Remodelăm datele cu jq];
-        JSON --încărcare date--> MongoDB[(Database)];
-        MongoDB --catmandu--> JSON1[JSON cu id unic];
-        JQ --> OpenRefine;
-        JSON1 --> OpenRefine;
-        OpenRefine --îmbogățire--> RDF;
-```
-
-## Transformare date
-
 Transformarea unui subset de trei înregistrări. Pentru transformare, vom folosi utilitarul `catmandu`. Să transformăm micro-setul nostru într-un format cu o verbozitate redusă (JSON).
 
 ```bash
@@ -285,9 +268,6 @@ Dacă am exporta datele din MongoDB, am obține o nouă colecție în format JSO
 }
 ```
 
-
-
 ## Resurse
 
 - Cum am creat graficele în Markdown: https://mermaid-js.github.io/mermaid/#/flowchart
-- Redactare grafice online: https://mermaid-js.github.io/mermaid-live-editor
